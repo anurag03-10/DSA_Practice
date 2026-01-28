@@ -51,7 +51,9 @@ def delete_node(head,key):
 
     return head
 
+
 head = create_ll_basic()
 head = insert_at_begining(head, 5)
 head = delete_node(head, 30)
 print_ll(head)
+
